@@ -7,7 +7,8 @@ test("Handling Iframes, Drag and Drop element in Playwright", async ({ page }) =
     await page.goto("https://jqueryui.com/droppable/");
 
     const iframe = page.frameLocator('[class="demo-frame"]')
-    //drag element, drop element
+
+    //drag element and drop element
     const dragElement = iframe.locator('[id="draggable"]');
     const dropElement = iframe.locator('[id="droppable"]');
 
