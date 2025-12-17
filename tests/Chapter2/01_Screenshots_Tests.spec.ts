@@ -1,3 +1,4 @@
+//Thanh Thanh Nguyen
 import { test, expect } from "@playwright/test";
 //write a test
 test('Capture Screenshots in Playwright', async ({ page }) => {
